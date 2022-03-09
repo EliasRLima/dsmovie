@@ -1,5 +1,5 @@
 import Paginacao from 'components/Paginacao';
-import MovieCard from 'components/Moviecard';
+import MovieCard from 'components/MovieCard';
 
 function Lista() {
     return (
