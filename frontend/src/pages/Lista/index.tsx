@@ -1,10 +1,10 @@
-import Pagination from 'components/Pagination';
+import Paginacao from 'components/Paginacao';
 import MovieCard from 'components/Moviecard';
 
 function Lista() {
     return (
         <>
-            <Pagination />
+            <Paginacao />
             <div className="container">
                 <div className="row">
                     <div className="col-sm-6 col-lg-4 col-xl-3">
