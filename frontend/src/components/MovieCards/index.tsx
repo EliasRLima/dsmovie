@@ -1,8 +1,8 @@
-import MovieScore from "../Moviescore";
+import MovieScore from "../MovieScore";
 import { Link } from "react-router-dom";
 import './style.css';
 
-function MovieCard() {
+function MovieCards() {
 
     const movie = {
         id: 1,
@@ -27,4 +27,4 @@ function MovieCard() {
     );
 }
 
-export default MovieCard;
+export default MovieCards;

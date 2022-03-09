@@ -1,5 +1,5 @@
 import Paginacao from 'components/Paginacao';
-import MovieCard from 'components/MovieCard';
+import MovieCards from 'components/MovieCards';
 
 function Lista() {
     return (
@@ -8,19 +8,19 @@ function Lista() {
             <div className="container">
                 <div className="row">
                     <div className="col-sm-6 col-lg-4 col-xl-3">
-                        <MovieCard />
+                        <MovieCards />
                     </div>
                     <div className="col-sm-6 col-lg-4 col-xl-3">
-                        <MovieCard />
+                        <MovieCards />
                     </div>
                     <div className="col-sm-6 col-lg-4 col-xl-3">
-                        <MovieCard />
+                        <MovieCards />
                     </div>
                     <div className="col-sm-6 col-lg-4 col-xl-3">
-                        <MovieCard />
+                        <MovieCards />
                     </div>
                     <div className="col-sm-6 col-lg-4 col-xl-3">
-                        <MovieCard />
+                        <MovieCards />
                     </div>
                     
                 </div>
