@@ -1,9 +1,13 @@
 package com.devsuperior.dsmovie.ententies;
 
+import java.util.HashSet;
+import java.util.Set;
+
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.OneToMany;
 import javax.persistence.Table;
 
 @Entity
@@ -18,6 +22,9 @@ public class Movie {
 	private Double score;
 	private String image;
 	
+	@OneToMany(mappedBy = "id.movie") //buscar todos scores relacionados a movie por meio de ScorePK
+	private Set<Score> scores = new HashSet<>();	
+	
 	public Movie() {
 		// TODO Auto-generated constructor stub
 	}
@@ -30,6 +37,7 @@ public class Movie {
 		this.score = score;
 		this.image = image;
 	}
+	
 	public Long getId() {
 		return id;
 	}
@@ -71,7 +79,12 @@ public class Movie {
 		this.image = image;
 	}
 
-	
-	
+	public Set<Score> getScores() {
+		return scores;
+	}
+
+	public void setScores(Set<Score> scores) {
+		this.scores = scores;
+	}
 	
 }
