@@ -3,7 +3,7 @@ import {
   Routes,
   Route
 } from "react-router-dom";
-import Listing from 'pages/Listing';
+import Lista from 'pages/Lista';
 import Formulario from 'pages/Formulario';
 import Navbar from 'components/Navbar';
 
@@ -12,7 +12,7 @@ function App() {
     <BrowserRouter>
       <Navbar />
       <Routes>
-        <Route path="/" element={<Listing />} />
+        <Route path="/" element={<Lista />} />
         <Route path="/form">
           <Route path=":movieId" element={<Formulario />} />
         </Route>

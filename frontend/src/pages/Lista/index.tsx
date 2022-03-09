@@ -1,7 +1,7 @@
 import Pagination from 'components/Pagination';
 import MovieCard from 'components/Moviecard';
 
-function Listing() {
+function Lista() {
     return (
         <>
             <Pagination />
@@ -31,4 +31,4 @@ function Listing() {
     );
 }
 
-export default Listing;
+export default Lista;
