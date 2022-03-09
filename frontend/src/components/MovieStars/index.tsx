@@ -3,7 +3,7 @@ import { ReactComponent as StarHalf} from 'assets/img/star-half.svg';
 import { ReactComponent as StarEmpty} from 'assets/img/star-empty.svg';
 import './style.css';
 
-function MovieStar() {
+function MovieStars() {
     return (
         <div className="dsmovie-stars-container">
             <StarFull />
@@ -15,4 +15,4 @@ function MovieStar() {
     );
 }
 
-export default MovieStar;
+export default MovieStars;
