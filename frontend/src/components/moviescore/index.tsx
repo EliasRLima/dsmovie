@@ -1,4 +1,4 @@
-import MovieStars from '../moviestars';
+import MovieStars from '../Moviestars';
 import './style.css';
 
 function MovieScore() {
