@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import './style.css';
 
-function Form() {
+function Formulario() {
 
     const movie = {
         id: 1,
@@ -44,4 +44,4 @@ function Form() {
     );
 }
 
-export default Form;
+export default Formulario;
