@@ -8,6 +8,7 @@ Esse projeto tem duas camadas.</br>
 #frontend</br>
    -> Interface feita com React e BootStrap</br>
    -> https://eliasrlima-dsmovie.netlify.app/</br>
+   *Por usar um site free, a REST API fica desativada apos 30 min sem uso, o que pode fazer com que nao carregue os filmes. Para resolver click no link de listar todos presente aqui abaixo na area de backend.</br>
 </br>
 </br>
 #backend</br>
